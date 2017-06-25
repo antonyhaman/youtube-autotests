@@ -71,5 +71,14 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:6.11" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.64" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.yaml:snakeyaml:1.17" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: com.musicg:musicg:1.4.2.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/musicg-1.4.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

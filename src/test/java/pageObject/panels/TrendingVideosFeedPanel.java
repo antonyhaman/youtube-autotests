@@ -2,7 +2,6 @@ package pageObject.panels;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
-import com.sun.istack.internal.NotNull;
 import org.openqa.selenium.By;
 import pageObject.base.AbstractPanel;
 
@@ -39,7 +38,6 @@ public class TrendingVideosFeedPanel extends AbstractPanel {
             return super.baseElement.$$(By.xpath(videoBlocksSelector));
         }
 
-        @NotNull
         public List<String> getVideoLinks(int desiredNumberOfLinks) {
             List<SelenideElement> videosList = getVideoBlocksList();
             List<String> list = new ArrayList<>(desiredNumberOfLinks);
