@@ -15,7 +15,6 @@ public class WebdriverService {
     public static void initDriver(boolean adblockOn) {
         setChromeDriverWindows();
         ChromeDriver driver;
-
         if (adblockOn) {
             File adblock = new File(PATH_TO_ADBLOCK);
             ChromeOptions options = new ChromeOptions();
@@ -33,5 +32,4 @@ public class WebdriverService {
     private static void setChromeDriverWindows() {
         System.setProperty("webdriver.chrome.driver", PATH_TO_CHROMEDRIVER);
     }
-
 }
