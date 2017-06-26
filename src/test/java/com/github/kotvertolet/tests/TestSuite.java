@@ -5,7 +5,7 @@ import com.github.kotvertolet.core.webdriver.WebdriverService;
 import com.github.kotvertolet.core.base.BaseTest;
 import com.github.kotvertolet.pageObject.pages.YoutubeGenericVideoPage;
 import com.github.kotvertolet.pageObject.pages.YoutubeTrendingPage;
-import com.github.kotvertolet.pageObject.utils.PageNavigation;
+import com.github.kotvertolet.core.webdriver.PageNavigation;
 import com.github.kotvertolet.utils.audioUtils.AudioComparison;
 import com.github.kotvertolet.utils.fileUtils.FileUtils;
 import org.testng.Assert;

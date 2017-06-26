@@ -4,7 +4,7 @@ import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.support.FindBy;
 import com.github.kotvertolet.core.base.AbstractPage;
 import com.github.kotvertolet.pageObject.panels.GenericVideoPanel;
-import com.github.kotvertolet.pageObject.utils.PageNavigation;
+import com.github.kotvertolet.core.webdriver.PageNavigation;
 
 import java.util.List;
 

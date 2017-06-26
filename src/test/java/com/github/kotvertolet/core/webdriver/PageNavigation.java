@@ -1,4 +1,4 @@
-package com.github.kotvertolet.pageObject.utils;
+package com.github.kotvertolet.core.webdriver;
 
 import com.codeborne.selenide.WebDriverRunner;
 import com.github.kotvertolet.annotations.Url;
